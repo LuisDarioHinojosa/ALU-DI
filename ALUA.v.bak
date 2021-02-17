@@ -1,0 +1,16 @@
+module ALUA(
+	input [7:0]A,
+	input [7:0]B,
+	input [1:0]S,
+	output [7:0] IS,
+	output cout
+);
+
+
+
+
+
+
+
+
+endmodule

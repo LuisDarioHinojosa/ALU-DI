@@ -1,0 +1,28 @@
+module aluComplete(
+	input [7:0] A,
+	input [7:0] B,
+	input [1:0] S1, // Internal selector (Y,Z)
+	input S2, // External selector (X)
+	output reg [7:0] F;
+);
+
+wire [7:0]logicOutput;
+wire [7:0]arithOutput;
+
+
+ALUA ari(.A(A),B(B),.S(S1).IS(arithOutput));
+ALUL lol(.A(A),B(B),.S(S1).OUT(logicOutput));
+
+always@(*)
+	begin
+		case(S2)
+			1'b0: F = arithOutput;
+			1'b1: F = logicOutput;
+			default: F = arithOutput;
+		endcase
+	end
+
+
+
+
+endmodule
