@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module ALUL_TB;
+module ALUA_TB;
 
 	reg[7:0] A;
 	reg[7:0] B;
@@ -8,7 +8,7 @@ module ALUL_TB;
 	wire [7:0]IS;
 	wire cout;
 
-	ALUL uut (
+	ALUA uut (
 		.A(A), 
 		.B(B), 
 		.S(S), 
@@ -17,6 +17,38 @@ module ALUL_TB;
 	);
 
 	initial begin
+
+
+	#100;
+	A = 00001111;
+	B = 00000101;
+	S = 0;
+	#100;
+
+	#100;
+	A = 00001111;
+	B = 00000101;
+	S = 1;
+	#100;
+
+
+
+	#100;
+	A = 00001111;
+	B = 00000101;
+	S = 2;
+	#100;
+
+	#100;
+	A = 00001111;
+	B = 00000101;
+	S = 3;
+	#100;
+
+
+
+
+/*
  	 // AND TB
 	#100;
 	A = 0;
@@ -115,18 +147,16 @@ module ALUL_TB;
 	
 	#100;
 	A = 0;
-	B = 0;
 	S = 3;
 	#100;
 
 
 	#100;
 	A = 1;
-	B = 0;
 	S = 3;
 	#100;
 
-
+*/
 
 
 

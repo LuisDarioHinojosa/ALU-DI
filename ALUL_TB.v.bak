@@ -1,5 +1,22 @@
 `timescale 1ns / 1ps
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 module ALUL_TB;
 
 	reg[7:0] A;

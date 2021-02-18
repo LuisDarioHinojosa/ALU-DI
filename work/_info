@@ -9,7 +9,7 @@ z2
 cModel Technology
 dC:/intelFPGA_lite/18.1/Leonel/CircuitoComparador
 vAdder
-Z0 !s110 1613588656
+Z0 !s110 1613683490
 !i10b 1
 !s100 ?`7^ohz<B[BCL6<hI]U=S0
 I[0Qm40ZMkN;c1BoKD;Th72
@@ -23,7 +23,7 @@ Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1613588656.000000
+Z4 !s108 1613683489.000000
 !s107 C:/intelFPGA_lite/18.1/Leonel/ALU/Adder.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA_lite/18.1/Leonel/ALU/Adder.v|
 !i113 1
@@ -31,7 +31,7 @@ Z5 o-work work
 Z6 tCvgOpt 0
 n@adder
 vALUA
-R0
+Z7 !s110 1613683489
 !i10b 1
 !s100 nR9dAY9oK:I6D]28Zjc4:2
 I35cF`5ObS5z<<cK6nCFe10
@@ -55,11 +55,11 @@ n@a@l@u@a
 vALUA_TB
 R0
 !i10b 1
-!s100 >dWF`l7<QTaH>m<DQPh^I1
-IdV<I`Y=;V7Qil]cA[XXP93
+!s100 i>@4o[3P:hiGn7a;5fIa20
+IiF0D4O@a?IRD6`GS41i;f0
 R1
 R2
-w1613588653
+w1613683331
 8C:/intelFPGA_lite/18.1/Leonel/ALU/ALUA_TB.v
 FC:/intelFPGA_lite/18.1/Leonel/ALU/ALUA_TB.v
 L0 3
@@ -67,7 +67,7 @@ R3
 r1
 !s85 0
 31
-R4
+Z8 !s108 1613683490.000000
 !s107 C:/intelFPGA_lite/18.1/Leonel/ALU/ALUA_TB.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA_lite/18.1/Leonel/ALU/ALUA_TB.v|
 !i113 1
@@ -75,7 +75,7 @@ R5
 R6
 n@a@l@u@a_@t@b
 vALUL
-R0
+R7
 !i10b 1
 !s100 ci[:8<]HARK@UUR:h]^fS3
 ITgWgT;jX>X]]VaA>ACl882
@@ -99,11 +99,11 @@ n@a@l@u@l
 vALUL_TB
 R0
 !i10b 1
-!s100 b@n?QOaZbD`b`Xd@_4l]^3
-I436OeK4;SXbk6m;`O@T;F0
+!s100 848ZDWN?gb`Q8Y;Zgm3>X0
+Imkl7QGEl_R_jF1O1I[U]>1
 R1
 R2
-w1613588626
+w1613683457
 8C:/intelFPGA_lite/18.1/Leonel/ALU/ALUL_TB.v
 FC:/intelFPGA_lite/18.1/Leonel/ALU/ALUL_TB.v
 L0 20
@@ -111,7 +111,7 @@ R3
 r1
 !s85 0
 31
-R4
+R8
 !s107 C:/intelFPGA_lite/18.1/Leonel/ALU/ALUL_TB.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA_lite/18.1/Leonel/ALU/ALUL_TB.v|
 !i113 1
@@ -119,7 +119,7 @@ R5
 R6
 n@a@l@u@l_@t@b
 vALUNEXT
-R0
+R7
 !i10b 1
 !s100 U8KEVHMoQc7JMzAmiCein0
 IRl@<SMPTn@1ih2PK@:4X50
